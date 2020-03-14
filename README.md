@@ -9,11 +9,4 @@
   
 sudo pip install --upgrade python-gitlab
 
-3. 执行 `main.py` 方法，按提示操作
-
-```shell script
-#!/bin/bash
-
-mdir=$(dirname $0)
-echo `alias mr="python3 $mdir/main.py"` > ~/.bashrc
-```
+3. 执行 `python3 main.py`，按提示操作
