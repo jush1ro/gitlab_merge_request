@@ -1,12 +1,12 @@
-# Gitlab 发起并执行 分支合并请求 脚本
+# Gitlab Initiate and execute branch merge request script
 
-1. 在 gitlab 代码仓库中创建 private token
+1. gitlab create in the code repository private token
 ![gitlab_private_token](gitlab_private_token.png)
 
-2. 修改 `config.py` 配置
+2. modify `config.py` configuration
 
-3. 安装 `python-gitlab` 依赖
+3. modify `python-gitlab` configuration
   
 sudo pip install --upgrade python-gitlab
 
-3. 执行 `python3 main.py`，按提示操作
+3. execution `python3 main.py`，follow the prompts
